@@ -1,0 +1,12 @@
+C:\Users\Massimo\source\repos\SWD62A-Home\Solution3\ShoppingCart.Domain\bin\Debug\netcoreapp3.1\ShoppingCart.Domain.deps.json
+C:\Users\Massimo\source\repos\SWD62A-Home\Solution3\ShoppingCart.Domain\bin\Debug\netcoreapp3.1\ShoppingCart.Domain.runtimeconfig.json
+C:\Users\Massimo\source\repos\SWD62A-Home\Solution3\ShoppingCart.Domain\bin\Debug\netcoreapp3.1\ShoppingCart.Domain.runtimeconfig.dev.json
+C:\Users\Massimo\source\repos\SWD62A-Home\Solution3\ShoppingCart.Domain\bin\Debug\netcoreapp3.1\ShoppingCart.Domain.dll
+C:\Users\Massimo\source\repos\SWD62A-Home\Solution3\ShoppingCart.Domain\bin\Debug\netcoreapp3.1\ShoppingCart.Domain.pdb
+C:\Users\Massimo\source\repos\SWD62A-Home\Solution3\ShoppingCart.Domain\obj\Debug\netcoreapp3.1\ShoppingCart.Domain.csprojAssemblyReference.cache
+C:\Users\Massimo\source\repos\SWD62A-Home\Solution3\ShoppingCart.Domain\obj\Debug\netcoreapp3.1\ShoppingCart.Domain.AssemblyInfoInputs.cache
+C:\Users\Massimo\source\repos\SWD62A-Home\Solution3\ShoppingCart.Domain\obj\Debug\netcoreapp3.1\ShoppingCart.Domain.AssemblyInfo.cs
+C:\Users\Massimo\source\repos\SWD62A-Home\Solution3\ShoppingCart.Domain\obj\Debug\netcoreapp3.1\ShoppingCart.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Massimo\source\repos\SWD62A-Home\Solution3\ShoppingCart.Domain\obj\Debug\netcoreapp3.1\ShoppingCart.Domain.dll
+C:\Users\Massimo\source\repos\SWD62A-Home\Solution3\ShoppingCart.Domain\obj\Debug\netcoreapp3.1\ShoppingCart.Domain.pdb
+C:\Users\Massimo\source\repos\SWD62A-Home\Solution3\ShoppingCart.Domain\obj\Debug\netcoreapp3.1\ShoppingCart.Domain.genruntimeconfig.cache
