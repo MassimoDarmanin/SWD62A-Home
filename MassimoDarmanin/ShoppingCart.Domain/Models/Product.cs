@@ -39,5 +39,12 @@ namespace ShoppingCart.Domain.Models
         [DefaultValue(false)]
         public bool Disable { get; set; } //to refresh the db,you must always run Add-Migration & Update-Database
 
+
+        //public Product find(string id)
+        //{
+        //    List<Product> products = findAll();
+        //    var prod = products.Where(a => a.Id == id).FirstOrDefault();
+        //    return prod;
+        //}
     }
 }

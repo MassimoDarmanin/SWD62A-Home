@@ -27,8 +27,32 @@ namespace PresentationWebApp.Controllers
         public IActionResult Index()
         {
             var list = _productsService.GetProducts();
+
             return View(list);
         }
+
+        //public ActionResult Index(int? i)
+        //{
+        //    var list = _productsService.GetProducts();
+        //    return View(list.ToPagedList(i ?? 1,3));
+        //}
+
+        //public async Task<IActionResult> Index(string sortOrder,string currentFilter,
+        //    string searchString,int? pageNumber)
+        //{
+        //    ViewData["CurrentSort"] = sortOrder;
+        //    var products = from p in _productsService.GetProducts() select p;
+        //    if (searchString != null)
+        //    {
+        //        pageNumber = 1;
+        //    }
+        //    else
+        //    {
+        //        searchString = currentFilter;
+        //    }
+        //    int pageSize = 3;
+        //    return View(await PaginatedList<ProductViewModel>.CreateAsync(products.AsNoTracking(), pageNumber ?? 1, pageSize));
+        //}
 
         [HttpPost]
         public IActionResult Search(string keyword) //using a form, and the select list must have name attribute = category
@@ -117,8 +141,20 @@ namespace PresentationWebApp.Controllers
             return RedirectToAction("Index");
         }
 
-
-
-
+        //public PartialViewResult ProductListPartial(int? page, int category)
+        //{
+        //    var pageNo = page ?? 1;
+        //    var pageSize = 10;
+        //    if(category != null)
+        //    {
+        //        var productList = _productsService.GetProducts(category);
+        //        return PartialView(productList);
+        //    }
+        //    else
+        //    {
+        //        var productList = _productsService.GetProducts();
+        //        return PartialView(productList);
+        //    }
+        //}
     }
 }
