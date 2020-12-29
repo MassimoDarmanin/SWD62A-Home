@@ -41,7 +41,7 @@ namespace PresentationWebApp.Controllers
             return -1;
         }
         
-        public IActionResult Buy(Guid id)
+        /*public IActionResult Buy(Guid id)
         {
             //var p = _productsService.GetProduct(id);
             if (SessionHelper.GetObjectFromJson<List<OrderDetails>>(HttpContext.Session, "order") == null)
@@ -65,6 +65,6 @@ namespace PresentationWebApp.Controllers
                 SessionHelper.SetObjectAsJson(HttpContext.Session, "order", order);
             }
             return RedirectToAction("Index");
-        } 
+        } */
     }
 }

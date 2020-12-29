@@ -380,3 +380,4 @@ C:\Users\Massimo\source\repos\SWD62A-Home\MassimoDarmanin\PresentationWebApp\bin
 C:\Users\Massimo\source\repos\SWD62A-Home\MassimoDarmanin\PresentationWebApp\obj\Debug\netcoreapp3.1\PresentationWebApp.csproj.CoreCompileInputs.cache
 C:\Users\Massimo\source\repos\SWD62A-Home\MassimoDarmanin\PresentationWebApp\obj\Debug\netcoreapp3.1\PresentationWebApp.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Massimo\source\repos\SWD62A-Home\MassimoDarmanin\PresentationWebApp\obj\Debug\netcoreapp3.1\PresentationWebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Massimo\source\repos\SWD62A-Home\MassimoDarmanin\PresentationWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Order\Index.cshtml.g.cs
