@@ -1,25 +1,51 @@
-﻿@model IEnumerable<ShoppingCart.Application.ViewModels.ProductViewModel>
+﻿@*@model IEnumerable<ShoppingCart.Application.ViewModels.ProductViewModel>*@
 @*@model IPagedList<ShoppingCart.Application.ViewModels.ProductViewModel>*@
 
+@model PagedList.IPagedList<ShoppingCart.Application.ViewModels.ProductViewModel>
+@using PagedList;
+@using PagedList.Mvc;
+@*@using System.Web.Mvc.Html;*@
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
 
-@{ ViewData["Title"] = "Index"; }
 
+@*@{ ViewData["Title"] = "Index"; }*@
+@{
+    ViewBag.Title = "Products";
+}
 
 <h1>Products Catalogue</h1>
 
-    <div class="container">
+<div class="container">
 
-        @Html.Partial("SearchPartial")
+    @Html.Partial("SearchPartial")
 
+</div>
+
+
+
+
+
+<div class="container">
+    <div class="row">
+
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.ActionLink("Name", "Index", new { sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter })
+                </th>
+                <th>
+                    @*@Html.ActionLink("Category", "Index", new { sortOrder = ViewBag.CategorySortParm })*@
+                </th>
+                <th>
+                    @Html.ActionLink("Price", "Index", new { sortOrder = ViewBag.PriceSortParm, currentFilter = ViewBag.CurrentFilter })
+                </th>
+                <th></th>
+            </tr>
+        </table>
+
+        @Html.Partial("ViewProductsPartial", Model)
     </div>
+    <br />
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount 
 
-
-
-
-
-    <div class="container">
-        <div class="row">
-
-            @Html.Partial("ViewProductsPartial", Model)
-        </div>
-    </div>
+</div>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rq+5OMAxRdRQfWhZrpmjzBGV23CIEjduE6U/GkUIeyfxGYEaNw/eO2ktw1gRtlrs1CR90Njq3JPBtSJJJgappw==",
+  "dgSpecHash": "xVIuLPpXdbfoJntg2Lwmp3DZVF9krv0XnPBPGz1xPPqZUYfMvDqLCEk+sn+h5IRnR7ew5CE1bhTuxGvU5muBMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Massimo\\source\\repos\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.IOC\\ShoppingCart.IOC.csproj",
+  "projectFilePath": "C:\\Users\\Massimo\\Source\\Repos\\MassimoDarmanin\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.IOC\\ShoppingCart.IOC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Massimo\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Massimo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

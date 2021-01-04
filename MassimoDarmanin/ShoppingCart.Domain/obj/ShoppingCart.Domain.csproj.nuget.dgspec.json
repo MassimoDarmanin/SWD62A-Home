@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Massimo\\source\\repos\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Domain\\ShoppingCart.Domain.csproj": {}
+    "C:\\Users\\Massimo\\Source\\Repos\\MassimoDarmanin\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Domain\\ShoppingCart.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Massimo\\source\\repos\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Domain\\ShoppingCart.Domain.csproj": {
+    "C:\\Users\\Massimo\\Source\\Repos\\MassimoDarmanin\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Domain\\ShoppingCart.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Massimo\\source\\repos\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Domain\\ShoppingCart.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Massimo\\Source\\Repos\\MassimoDarmanin\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Domain\\ShoppingCart.Domain.csproj",
         "projectName": "ShoppingCart.Domain",
-        "projectPath": "C:\\Users\\Massimo\\source\\repos\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Domain\\ShoppingCart.Domain.csproj",
+        "projectPath": "C:\\Users\\Massimo\\Source\\Repos\\MassimoDarmanin\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Domain\\ShoppingCart.Domain.csproj",
         "packagesPath": "C:\\Users\\Massimo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Massimo\\source\\repos\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Massimo\\Source\\Repos\\MassimoDarmanin\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

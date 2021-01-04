@@ -7443,11 +7443,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Massimo\\source\\repos\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.IOC\\ShoppingCart.IOC.csproj",
+      "projectUniqueName": "C:\\Users\\Massimo\\Source\\Repos\\MassimoDarmanin\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.IOC\\ShoppingCart.IOC.csproj",
       "projectName": "ShoppingCart.IOC",
-      "projectPath": "C:\\Users\\Massimo\\source\\repos\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.IOC\\ShoppingCart.IOC.csproj",
+      "projectPath": "C:\\Users\\Massimo\\Source\\Repos\\MassimoDarmanin\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.IOC\\ShoppingCart.IOC.csproj",
       "packagesPath": "C:\\Users\\Massimo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Massimo\\source\\repos\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.IOC\\obj\\",
+      "outputPath": "C:\\Users\\Massimo\\Source\\Repos\\MassimoDarmanin\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.IOC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -7468,14 +7468,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Massimo\\source\\repos\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Application\\ShoppingCart.Application.csproj": {
-              "projectPath": "C:\\Users\\Massimo\\source\\repos\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Application\\ShoppingCart.Application.csproj"
+            "C:\\Users\\Massimo\\Source\\Repos\\MassimoDarmanin\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Application\\ShoppingCart.Application.csproj": {
+              "projectPath": "C:\\Users\\Massimo\\Source\\Repos\\MassimoDarmanin\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Application\\ShoppingCart.Application.csproj"
             },
-            "C:\\Users\\Massimo\\source\\repos\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Data\\ShoppingCart.Data.csproj": {
-              "projectPath": "C:\\Users\\Massimo\\source\\repos\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Data\\ShoppingCart.Data.csproj"
+            "C:\\Users\\Massimo\\Source\\Repos\\MassimoDarmanin\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Data\\ShoppingCart.Data.csproj": {
+              "projectPath": "C:\\Users\\Massimo\\Source\\Repos\\MassimoDarmanin\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Data\\ShoppingCart.Data.csproj"
             },
-            "C:\\Users\\Massimo\\source\\repos\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Domain\\ShoppingCart.Domain.csproj": {
-              "projectPath": "C:\\Users\\Massimo\\source\\repos\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Domain\\ShoppingCart.Domain.csproj"
+            "C:\\Users\\Massimo\\Source\\Repos\\MassimoDarmanin\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Domain\\ShoppingCart.Domain.csproj": {
+              "projectPath": "C:\\Users\\Massimo\\Source\\Repos\\MassimoDarmanin\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Domain\\ShoppingCart.Domain.csproj"
             }
           }
         }

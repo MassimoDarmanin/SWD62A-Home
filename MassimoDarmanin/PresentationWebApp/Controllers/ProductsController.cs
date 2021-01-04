@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ShoppingCart.Application.Interfaces;
 using ShoppingCart.Application.ViewModels;
+using PagedList;
+using System.Web.Mvc.Html;
 
 namespace PresentationWebApp.Controllers
 {
@@ -24,11 +26,49 @@ namespace PresentationWebApp.Controllers
             _env = env;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string sortOrder, string currentFilter, string searchString, int? page)
         {
+            //var list = _productsService.GetProducts();
+
+            //return View(list);
+
+            ViewBag.CurrentSort = sortOrder;
+
+            if (searchString != null)
+            {
+                page = 1;
+            }
+            else
+            {
+                searchString = currentFilter;
+            }
+
+            ViewBag.CurrentFilter = searchString;
+
+            ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name" : "";
+            ViewBag.PriceSortParm = sortOrder == "price" ? "category" : "price";
+            //ViewBag.CategorySortParm = sortOrder == "category" ? "price" : "category";
             var list = _productsService.GetProducts();
 
-            return View(list);
+            switch (sortOrder)
+            {
+                case "name":
+                    list = list.OrderByDescending(s => s.Name);
+                    break;
+                case "price":
+                    list = list.OrderBy(s => s.Price);
+                    break;
+                case "category":
+                    list = list.OrderByDescending(s => s.Category);
+                    break;
+                default:
+                    list = list.OrderBy(s => s.Name);
+                    break;
+            }
+            int pageSize = 4;
+            int pageNumber = (page ?? 1);
+            return View(list.ToPagedList(pageNumber, pageSize));
+            //return View(list.ToList());
         }
 
         //public ActionResult Index(int? i)

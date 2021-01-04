@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bl6P73UiEJYcLDszVclYpTEeMU794y9Y1ivY/XQd2JUJluCBxhu2nGSwHuOyrM5THsTizX/zlpFeS0YDVUNROA==",
+  "dgSpecHash": "FoNp54W35nMei7SBa318vIsyTa4bXocyh05BHGABbLApSvJsSUgaiYepXfiohPhX9UfYrhrXffxdhtCB8mgBTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Massimo\\source\\repos\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Domain\\ShoppingCart.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Massimo\\Source\\Repos\\MassimoDarmanin\\SWD62A-Home\\MassimoDarmanin\\ShoppingCart.Domain\\ShoppingCart.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Massimo\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Massimo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
