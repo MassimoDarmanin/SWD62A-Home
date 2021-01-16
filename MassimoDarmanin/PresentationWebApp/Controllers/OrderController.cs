@@ -19,6 +19,7 @@ namespace PresentationWebApp.Controllers
     public class OrderController : Controller
     {
         private readonly IProductsService _productsService;
+        
         public IActionResult Index()
         {
             var order = SessionHelper.GetObjectFromJson<List<OrderDetails>>(HttpContext.Session, "order");

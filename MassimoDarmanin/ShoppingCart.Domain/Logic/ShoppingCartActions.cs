@@ -6,6 +6,7 @@ namespace ShoppingCart.Domain.Logic
 {
     public class ShoppingCartActions
     {
+       
         /*public string ShoppingCartId { get; set; }
 
         ShoppingCartDbContext _db;
