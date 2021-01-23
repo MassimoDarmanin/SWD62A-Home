@@ -18,7 +18,7 @@ namespace PresentationWebApp.Controllers
 {
     public class OrderController : Controller
     {
-        private readonly IProductsService _productsService;
+        /*private readonly IProductsService _productsService;
         
         public IActionResult Index()
         {
@@ -40,7 +40,7 @@ namespace PresentationWebApp.Controllers
                 }
             }
             return -1;
-        }
+        }*/
         
         /*public IActionResult Buy(Guid id)
         {

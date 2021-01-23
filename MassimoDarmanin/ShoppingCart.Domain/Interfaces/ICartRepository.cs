@@ -9,10 +9,12 @@ namespace ShoppingCart.Domain.Interfaces
     public interface ICartRepository
     {
         IQueryable<Cart> GetCart();
-        Cart GetCart(Guid id);
+        Cart GetCart(string email, Guid productId);
 
         //void DeleteProduct(Product p);
 
-        Guid AddCart(Cart c);
+        Guid AddToCart(Cart c);
+
+        void UpdateCart(Cart cart);
     }
 }

@@ -14,7 +14,7 @@ namespace ShoppingCart.Domain.Models
         public string UserEmail { get; set; }
         public decimal Total { get; set; }
 
-        public List<OrderDetails> OrderDetails { get; set; }
+        //public List<OrderDetails> OrderDetails { get; set; }
 
         
 

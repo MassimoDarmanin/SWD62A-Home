@@ -20,7 +20,7 @@ namespace ShoppingCart.Data.Repositories
 
         }
 
-        public Guid AddCart(Cart c)
+        public Guid AddToCart(Cart c)
         {
             //ShoppingCartDbContext context = new ShoppingCartDbContext();
             _context.Carts.Add(c);
@@ -33,9 +33,15 @@ namespace ShoppingCart.Data.Repositories
             return _context.Carts;
         }
 
-        public Cart GetCart(Guid id)
+        public Cart GetCart(string email, Guid productId)
         {
-            return _context.Carts.SingleOrDefault(x => x.Id == id);
+            return _context.Carts.SingleOrDefault(x => x.Id == productId);
+        }
+
+        public void UpdateCart(Cart cart)
+        {
+            _context.Update(cart);
+            _context.SaveChanges();
         }
     }
 }

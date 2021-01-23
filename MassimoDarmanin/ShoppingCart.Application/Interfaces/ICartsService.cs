@@ -14,7 +14,9 @@ namespace ShoppingCart.Application.Interfaces
 
         ShoppingCartViewModel GetCart(Guid id);
 
-        void AddCart(ShoppingCartViewModel cart);
+        void AddToCart(string email, Guid productId, int qty);
+
+        void UpdateQtyInCart(string email, Guid productId, int qty);
 
     }
 }
