@@ -21,7 +21,7 @@ namespace ShoppingCart.Domain.Models
 
         public string Email { get; set; }
 
-        //public int Qty { get; set; }
+        //Ipublic int Qty { get; set; }
 
         [DefaultValue(false)]
         public bool Disable { get; set; } //to refresh the db,you must always run Add-Migration & Update-Database

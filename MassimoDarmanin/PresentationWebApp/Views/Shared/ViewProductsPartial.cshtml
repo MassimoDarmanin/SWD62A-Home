@@ -11,10 +11,11 @@
             <h5 class="card-title">@p.Name</h5>
             <p class="card-text">€@p.Price</p>
             <a href="/Products/Details?id=@p.Id" class="btn btn-primary">View Specifications</a>
+            <a href="/Order/index?id=@p.Id" class="btn btn-outline-success">Buy</a>
             @*<a asp-controller="Order" asp-action="Buy" asp-route="@p.Id">Add to Cart</a>*@
             @if (User.IsInRole("Admin"))
             {
-        <a href="/Products/Delete?id=@p.Id" class="btn btn-danger">Delete</a>}
+                <a href="/Products/Delete?id=@p.Id" class="btn btn-danger">Delete</a>}
 
         </div>
     </div>

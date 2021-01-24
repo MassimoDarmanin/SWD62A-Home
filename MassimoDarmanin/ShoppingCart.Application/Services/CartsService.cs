@@ -12,9 +12,9 @@ namespace ShoppingCart.Application.Services
     public class CartsService : ICartsService
     {
         private ICartRepository _cartsRepo;
-        public CartsService(ICartsService cartRepository)
+        public CartsService(ICartsService cartRepo)
         {
-            //_cartsRepo = cartRepository;
+            //_cartsRepo = cartRepo;
         }
         public void AddToCart(string email, Guid productId, int count)
         {
@@ -41,7 +41,7 @@ namespace ShoppingCart.Application.Services
             }
         }
 
-        public ShoppingCartViewModel GetCart(string email, Guid id)
+        /*public ShoppingCartViewModel GetCart(string email, Guid id)
         {
             var myCart = _cartsRepo.GetCart(email,id);
 
@@ -57,7 +57,7 @@ namespace ShoppingCart.Application.Services
 
             };
             return myModel;
-        }
+        }*/
 
         public IQueryable<ShoppingCartViewModel> GetCart(Guid id)
         {
@@ -72,16 +72,6 @@ namespace ShoppingCart.Application.Services
             return list;
         }
 
-        public IQueryable<ShoppingCartViewModel> GetCarts(string keyword)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IQueryable<ShoppingCartViewModel> GetCarts()
-        {
-            throw new NotImplementedException();
-        }
-
         public void UpdateQtyInCart(string email, Guid productId, int count)
         {
             Cart originalCart = null;
@@ -90,9 +80,23 @@ namespace ShoppingCart.Application.Services
             _cartsRepo.UpdateCart(originalCart);//orignial cart has been edited
         }
 
-        ShoppingCartViewModel ICartsService.GetCart(Guid id)
+        /*ShoppingCartViewModel ICartsService.GetCart(Guid id)
         {
-            throw new NotImplementedException();
-        }
+            var myCart = _cartsRepo.GetCart();
+
+            ShoppingCartViewModel myModel = new ShoppingCartViewModel();
+            //myModel.Id = myCart.i
+            //myModel.Count = myCart.Count;
+            //myModel.DateCreated = myCart.DateCreated;
+            //myModel.Email = myCart.Email;
+            myModel.Product = new ProductViewModel()
+            {
+                Id = myModel.Product.Id,
+                Name = myModel.Product.Name,
+                Price = myModel.Product.Price,
+                //Stock = myModel.Product.Stock
+            };
+            return myModel;
+        }*/
     }
 }

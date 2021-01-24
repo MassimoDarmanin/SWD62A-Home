@@ -18,6 +18,19 @@ namespace PresentationWebApp.Controllers
 {
     public class OrderController : Controller
     {
+        public IActionResult Index(Guid id)
+        {
+            try
+            {
+                string loggedInEmail = User.Identity.Name;
+                return View();
+            }
+            catch(Exception ex)
+            {
+                return RedirectToAction("Error", "Home");
+            }
+            
+        }
         /*private readonly IProductsService _productsService;
         
         public IActionResult Index()

@@ -25,6 +25,5 @@ namespace ShoppingCart.Domain.Models
 
         public double Price { get; set; }
 
-
     }
 }

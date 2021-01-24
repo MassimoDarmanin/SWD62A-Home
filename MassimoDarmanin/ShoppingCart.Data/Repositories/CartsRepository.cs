@@ -38,6 +38,11 @@ namespace ShoppingCart.Data.Repositories
             return _context.Carts.SingleOrDefault(x => x.Id == productId);
         }
 
+        public object GetCart(Guid id)
+        {
+            throw new NotImplementedException();
+        }
+
         public void UpdateCart(Cart cart)
         {
             _context.Update(cart);

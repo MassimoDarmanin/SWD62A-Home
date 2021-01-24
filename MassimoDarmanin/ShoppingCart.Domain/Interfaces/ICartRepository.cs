@@ -16,5 +16,6 @@ namespace ShoppingCart.Domain.Interfaces
         Guid AddToCart(Cart c);
 
         void UpdateCart(Cart cart);
+        object GetCart(Guid id);
     }
 }
