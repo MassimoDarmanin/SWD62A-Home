@@ -1,0 +1,17 @@
+C:\Users\Massimo\Source\Repos\MassimoDarmanin\SWD62A-Home\MassimoDarmanin\ShoppingCart.Application\bin\Release\netcoreapp3.1\ShoppingCart.Application.deps.json
+C:\Users\Massimo\Source\Repos\MassimoDarmanin\SWD62A-Home\MassimoDarmanin\ShoppingCart.Application\bin\Release\netcoreapp3.1\ShoppingCart.Application.runtimeconfig.json
+C:\Users\Massimo\Source\Repos\MassimoDarmanin\SWD62A-Home\MassimoDarmanin\ShoppingCart.Application\bin\Release\netcoreapp3.1\ShoppingCart.Application.runtimeconfig.dev.json
+C:\Users\Massimo\Source\Repos\MassimoDarmanin\SWD62A-Home\MassimoDarmanin\ShoppingCart.Application\bin\Release\netcoreapp3.1\ShoppingCart.Application.dll
+C:\Users\Massimo\Source\Repos\MassimoDarmanin\SWD62A-Home\MassimoDarmanin\ShoppingCart.Application\bin\Release\netcoreapp3.1\ShoppingCart.Application.pdb
+C:\Users\Massimo\Source\Repos\MassimoDarmanin\SWD62A-Home\MassimoDarmanin\ShoppingCart.Application\bin\Release\netcoreapp3.1\ShoppingCart.Data.dll
+C:\Users\Massimo\Source\Repos\MassimoDarmanin\SWD62A-Home\MassimoDarmanin\ShoppingCart.Application\bin\Release\netcoreapp3.1\ShoppingCart.Domain.dll
+C:\Users\Massimo\Source\Repos\MassimoDarmanin\SWD62A-Home\MassimoDarmanin\ShoppingCart.Application\bin\Release\netcoreapp3.1\ShoppingCart.Data.pdb
+C:\Users\Massimo\Source\Repos\MassimoDarmanin\SWD62A-Home\MassimoDarmanin\ShoppingCart.Application\bin\Release\netcoreapp3.1\ShoppingCart.Domain.pdb
+C:\Users\Massimo\Source\Repos\MassimoDarmanin\SWD62A-Home\MassimoDarmanin\ShoppingCart.Application\obj\Release\netcoreapp3.1\ShoppingCart.Application.csprojAssemblyReference.cache
+C:\Users\Massimo\Source\Repos\MassimoDarmanin\SWD62A-Home\MassimoDarmanin\ShoppingCart.Application\obj\Release\netcoreapp3.1\ShoppingCart.Application.AssemblyInfoInputs.cache
+C:\Users\Massimo\Source\Repos\MassimoDarmanin\SWD62A-Home\MassimoDarmanin\ShoppingCart.Application\obj\Release\netcoreapp3.1\ShoppingCart.Application.AssemblyInfo.cs
+C:\Users\Massimo\Source\Repos\MassimoDarmanin\SWD62A-Home\MassimoDarmanin\ShoppingCart.Application\obj\Release\netcoreapp3.1\ShoppingCart.Application.csproj.CoreCompileInputs.cache
+C:\Users\Massimo\Source\Repos\MassimoDarmanin\SWD62A-Home\MassimoDarmanin\ShoppingCart.Application\obj\Release\netcoreapp3.1\ShoppingCart.Application.csproj.CopyComplete
+C:\Users\Massimo\Source\Repos\MassimoDarmanin\SWD62A-Home\MassimoDarmanin\ShoppingCart.Application\obj\Release\netcoreapp3.1\ShoppingCart.Application.dll
+C:\Users\Massimo\Source\Repos\MassimoDarmanin\SWD62A-Home\MassimoDarmanin\ShoppingCart.Application\obj\Release\netcoreapp3.1\ShoppingCart.Application.pdb
+C:\Users\Massimo\Source\Repos\MassimoDarmanin\SWD62A-Home\MassimoDarmanin\ShoppingCart.Application\obj\Release\netcoreapp3.1\ShoppingCart.Application.genruntimeconfig.cache

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using PresentationWebApp.Helpers;
 using ShoppingCart.Application.Interfaces;
 using ShoppingCart.Application.Services;
@@ -18,6 +19,13 @@ namespace PresentationWebApp.Controllers
 {
     public class OrderController : Controller
     {
+        private readonly ILogger<OrderController> _logger;
+
+        public OrderController(ILogger<OrderController> logger)
+        {
+            _logger = logger;
+        }
+
         public IActionResult Index(Guid id)
         {
             try
@@ -27,6 +35,7 @@ namespace PresentationWebApp.Controllers
             }
             catch(Exception ex)
             {
+                _logger.LogError(ex.Message);
                 return RedirectToAction("Error", "Home");
             }
             

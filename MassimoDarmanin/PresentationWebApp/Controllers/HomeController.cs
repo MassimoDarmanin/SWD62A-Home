@@ -20,7 +20,7 @@ namespace PresentationWebApp.Controllers
 
         public IActionResult Index()
         {
-            //......
+            _logger.LogInformation("Index view");
             return View();
         }
 
@@ -32,6 +32,7 @@ namespace PresentationWebApp.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
+            _logger.LogError("Error");
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }

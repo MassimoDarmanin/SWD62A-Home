@@ -10,11 +10,19 @@ using ShoppingCart.Application.Interfaces;
 using ShoppingCart.Application.ViewModels;
 using PagedList;
 using System.Web.Mvc.Html;
+using Microsoft.Extensions.Logging;
 
 namespace PresentationWebApp.Controllers
 {
     public class ProductsController : Controller
     {
+        private readonly ILogger<ProductsController> _logger;
+
+        public ProductsController(ILogger<ProductsController> logger)
+        {
+            _logger = logger;
+        }
+
         private readonly IProductsService _productsService;
         private readonly ICategoriesService _categoriesService;
         private IWebHostEnvironment _env;
@@ -98,7 +106,7 @@ namespace PresentationWebApp.Controllers
         public IActionResult Search(string keyword) //using a form, and the select list must have name attribute = category
         {
             var list = _productsService.GetProducts(keyword).ToList();
-
+            _logger.LogInformation("Used Search: " + keyword);
             return View("Index", list);
         }
 
@@ -153,7 +161,7 @@ namespace PresentationWebApp.Controllers
             }
             catch (Exception ex)
             {
-                //log error
+                _logger.LogError(ex.Message);
                 TempData["warning"] = "Product was not added!";
             }
 
@@ -173,7 +181,7 @@ namespace PresentationWebApp.Controllers
             }
             catch (Exception ex)
             {
-                //log your error 
+                _logger.LogError(ex.Message);
 
                 TempData["warning"] = "Product was not deleted"; //Change from ViewData to TempData
             }

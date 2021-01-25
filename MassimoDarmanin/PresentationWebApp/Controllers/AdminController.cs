@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace PresentationWebApp.Controllers
 {
@@ -16,6 +17,13 @@ namespace PresentationWebApp.Controllers
         {
             _userManager = userManager;
 
+        }
+
+        private readonly ILogger<AdminController> _logger;
+
+        public AdminController(ILogger<AdminController> logger)
+        {
+            _logger = logger;
         }
 
         [HttpGet]
@@ -31,6 +39,8 @@ namespace PresentationWebApp.Controllers
             var user = new IdentityUser { UserName = email, Email = email };
 
             _userManager.AddToRoleAsync(user, role);
+
+            _logger.LogInformation("Admin logged in");
 
             return View();
         }
